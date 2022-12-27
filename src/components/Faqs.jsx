@@ -5,39 +5,52 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do we get started?',
+      question: 'How do I get started?',
       answer:
-        'First sign up for our Free 30-day trial. We will work with you to design the perfect card and loyalty program for your business.',
+        `Sign up for our 30-day free trial and we'll help you create a loyalty card
+         that's as unique as your business. After registration, our team will meet with
+          you to design the perfect loyalty program that meets the needs of your customers
+           and fits your brand. Don't wait – join the party today!`,
     },
     {
-      question: 'I already have paper cards, why should we switch?',
+      question: 'My business uses a paper rewards card. Why should we switch?',
       answer:
-        '75% of consumers say they would engage more with a mobile loyalty program. Plus with stickycards you prevent theft and abuse, save on printing, reduce your carbon footprint, and have the ability to add expiry reminders!',
+        `Hey there, it's time to ditch the paper cards and join the digital age! Our loyalty 
+        cards are convenient for customers, which can lead to increased participation in your
+        loyalty program. You'll also get improved data tracking, reduced costs, and the satisfaction
+        of reducing paper waste. It's a win-win!`,
     },
   ],
   [
     {
-      question: 'Why should I setup a stickycard?',
+      question: 'Can I add to my basic package?',
       answer:
-        "Loyalty is hard to build and it costs 5X more to acquire a new customer. Don't you want your customers coming back? 80% of consumers find that loyalty programs impact their purchasing decisions.",
+        `Absolutely! We’re always here to be flexible and convenient for you. Contact us at info@stickycards.co 
+        if you need to add a location, manager, or just want to chat. Our support team will be happy to assist.`,
     },
     {
-      question: 'How long does it take to create a card?',
+      question: 'Are there any fees associated after installation',
       answer:
-        'Depending on the complexity, we can usually build a card for your business within 48-72 hours.',
+        `We have no hidden fees. Once you’ve signed up, you’re good to go. Your price won’t change,
+         but you’ll continue to receive all the cool updates we are working on!`,
     },
     
   ],
   [
     {
-      question: 'Will your price go up?',
+      question: 'Is our customers’ information safe with sticky cards?',
       answer:
-        "No! Here at stickycards we are determined to help small businesses compete with the Goliaths of their industry. Although we will add new plans in the future, your price will never change. We keep our friends close.",
+        `We prioritize the protection and security of our customers' personal information. All data collected
+        through our loyalty programs is encrypted and stored in a secure manner. Access to user data is only
+        granted to customers who have purchased a Professional package or higher. You can trust that we take
+         the necessary precautions to safeguard your information.`,
     },
     {
-      question: 'Do you support Google/Facebook registrations?',
+      question: 'Will your price change?',
       answer:
-        "We're currently working on this and will have these sign-up options for cardholders in 2023!",
+        `Sign up with us and lock in your subscription rate – it will never increase as long as you're
+        a customer! Plus, all future features will be included at no extra cost. Don't wait, join sticky
+         cards now to take advantage of our low prices!`,
     },
   ]
 ]
@@ -55,17 +68,18 @@ export function Faqs() {
             id="faqs-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
-            <Link
-              href="mailto:info@example.com"
-              className="text-gray-900 underline"
+          <p className="mt-2 text-md text-gray-600">
+            Here’s a list of some common questions we get, along with helpful answers.
+            Can’t find what you’re looking for?
+            No problem – just <Link
+              href="mailto:info@stickycards.co"
+              className="text-cyan-500"
             >
-              reach out to us
-            </Link>
-            .
+              send us an email
+            </Link>  with your question and we’ll be happy to help.
+            
           </p>
         </div>
         <ul
